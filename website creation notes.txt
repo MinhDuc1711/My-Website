@@ -1,0 +1,9 @@
+npx create-react-app <name-of-app>
+code .
+cd to folder
+npm start - to start website
+delete unnecessary files, remove unncessary imports
+create folder, create .js and .css files
+enable emmet
+npm install react-router-dom
+do font awesome, import into index.html
