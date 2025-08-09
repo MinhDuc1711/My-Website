@@ -1,16 +1,16 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
+// import { Button } from './Button';
 import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <section className='footer-subscription'>
+      {/* <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
           Welcome to my website
         </p>
-        {/* <div className='input-areas'>
+        <div className='input-areas'>
           <form>
             <input
               className='footer-input'
@@ -20,17 +20,16 @@ function Footer() {
             />
             <Button buttonStyle='btn--outline'>Submit</Button>
           </form>
-        </div> */}
-      </section>
+        </div>
+      </section> */}
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>About Me</h2>
-            <Link to='/'>My projects</Link>
-            <Link to='/'>Email</Link>
-            <Link to='/'>Phone number</Link>
-            <Link to='/'>Socials</Link>
-            <Link to='/'>More about me</Link>
+            <h2>Contact me:</h2>
+            {/* <h2>Email: <Link to='/'>minhdvu02@gmail.com</Link></h2>
+            <h2>Phone number: <Link to='/'>+1 613-716-1396</Link></h2> */}
+            <h2>Email: minhdvu02@gmail.com</h2>
+            <h2>Phone number: +1 613-716-1396</h2>
           </div>
         </div>
       </div>
@@ -39,50 +38,37 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               MINH DUC VU
-              <i class='fab fa-typo3' />
+              {/* <i class='fab fa-typo3' /> */}
             </Link>
           </div>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href="https://www.facebook.com/MynameisM3"
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
+            </a>
+            <a
+              class='social-icon-link github'
+              href="https://github.com/MinhDuc1711"
               target='_blank'
-              aria-label='Instagram'
+              rel="noopener noreferrer"
+              aria-label='Github'
             >
-              <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
+              <i class='fab fa-github' />
+            </a>
+            <a
+              class='social-icon-link linkedin'
+              href="https://www.linkedin.com/in/minh-duc-vu-55814535b/"
               target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='Twitter'
-            >
-              <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
+              rel="noopener noreferrer"
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

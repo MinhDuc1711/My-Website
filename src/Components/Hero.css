@@ -15,7 +15,7 @@ video {
     align-items: center;
     box-shadow: insert 0 0 0 1000px rgba(0,0,0,0.2);
     object-fit: contain;
-    content: center;
+    justify-content: center;
 }
 
 .hero-container > h1 {
@@ -28,7 +28,6 @@ video {
     color: #fff;
     margin-top: 8px;
     font-size: 32px;
-    font-family: 'Radley', serif;
 }
 
 .hero-btns {

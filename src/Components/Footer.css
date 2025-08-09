@@ -19,10 +19,10 @@
   color: #fff;
 }
 
-.footer-subscription > p {
+/* .footer-subscription > p {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
-}
+} */
 
 .footer-subscription-heading {
   margin-bottom: 24px;
@@ -62,7 +62,8 @@
   align-items: flex-start;
   margin: 16px;
   text-align: left;
-  width: 160px;
+  min-width: max-content;
+  width: 330px;
   box-sizing: border-box;
 }
 
@@ -97,6 +98,7 @@
 .social-icon-link {
   color: #fff;
   font-size: 24px;
+  margin-left: 30px;
 }
 
 .social-media {
@@ -115,7 +117,7 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 240px;
 }

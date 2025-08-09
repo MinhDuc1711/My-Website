@@ -30,7 +30,7 @@ function Navbar() {
       <nav className="Navbar">
         <div className="navbar-container">
           <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-            My website
+            Minh Duc Vu
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -47,12 +47,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='/' className="nav-links-mobile" onClick={closeMobileMenu}>
-                To be implemented
+              <Link to='/about' className="nav-links-mobile" onClick={closeMobileMenu}>
+                ABOUT ME
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {button && <Button buttonStyle='btn--outline' to='/about'style={{minWidth: "max-content"}}>ABOUT ME</Button>}
         </div>
       </nav>
     </>
