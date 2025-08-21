@@ -2,6 +2,7 @@
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://MinhDuc1711.github.io/My-Website",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

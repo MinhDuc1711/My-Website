@@ -6,7 +6,7 @@ import { Button } from './Button';
 function Hero() {
   return (
     <div className='hero-container'>
-      <video src="/videos/background_vid.mp4" autoPlay loop muted />
+      <video src={process.env.PUBLIC_URL + "/videos/background_vid.mp4"} autoPlay loop muted />
       <h1>Welcome to my website</h1>
       <p>Let's get started</p>
       <div className="hero-btns">

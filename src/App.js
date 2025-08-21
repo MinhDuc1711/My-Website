@@ -9,7 +9,7 @@ import About from './Components/Pages/About.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/My-Website">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />}/>
