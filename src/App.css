@@ -15,7 +15,8 @@
 .home,
 .projects,
 .about,
-.unitygameproject{
+.unitygameproject,
+.realestatewebsiteproject{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -23,7 +24,10 @@
   font-size: 3rem;
 }
 
-.projects {
+.projects,
+.about,
+.unitygameproject,
+.realestatewebsiteproject {
   background-image: url('../public/images/img-1.jpg');
   background-position: center;
   background-size: cover;
@@ -32,20 +36,12 @@
   font-size: 100px;
 }
 
-.about {
-  background-image: url('../public/images/img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
-.unitygameproject {
-  background-image: url('../public/images/img-1.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+.about-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  max-width: 80%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  line-height: 1.6;
 }

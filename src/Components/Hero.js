@@ -13,7 +13,7 @@ function Hero() {
         <Button to='projects' className='btns' buttonStyle='btn--outline' buttonSize='btn--large'>
           Projects
         </Button>
-        <Button className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
+        <Button to='about' className='btns' buttonStyle='btn--primary' buttonSize='btn--large'>
           About me <i className='far-fa-play-circle' />
         </Button>
       </div>
