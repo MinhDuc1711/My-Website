@@ -14,7 +14,8 @@
 
 .home,
 .projects,
-.about{
+.about,
+.unitygameproject{
   display: flex;
   height: 90vh;
   align-items: center;
@@ -32,6 +33,15 @@
 }
 
 .about {
+  background-image: url('../public/images/img-1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.unitygameproject {
   background-image: url('../public/images/img-1.jpg');
   background-position: center;
   background-size: cover;
